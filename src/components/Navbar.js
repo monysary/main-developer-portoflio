@@ -120,7 +120,7 @@ function ResponsiveAppBar() {
                             '@media (max-width: 600px)': {
                                 fontSize: '12px'
                             }
-                        }}>Inquire</Button>
+                        }}>Contact</Button>
                     </Box>
                 </Toolbar>
             </Container>
