@@ -97,7 +97,7 @@ function ResponsiveAppBar() {
                         MONY SARY
                     </Typography>
                     {/* Desktop view menu links */}
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', gap: 3 }}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end', gap: 3 }}>
                         {pages.map((page) => (
                             <Button
                                 key={page}
@@ -109,7 +109,7 @@ function ResponsiveAppBar() {
                         ))}
                     </Box>
                     {/* Inquire button */}
-                    <Box sx={{ flexGrow: 0 }}>
+                    <Box sx={{ flexGrow: 0, marginLeft: '24px' }}>
                         <Button variant="contained" sx={{
                             borderRadius: '18px',
                             backgroundColor: '#C83649',
