@@ -78,7 +78,7 @@ function ResponsiveAppBar() {
                         </Menu>
                     </Box>
                     {/* Mobile view logo */}
-                    <Typography
+                    {/* <Typography
                         variant="h5"
                         noWrap
                         component="a"
@@ -94,8 +94,8 @@ function ResponsiveAppBar() {
                             textDecoration: 'none',
                         }}
                     >
-                        MONY SARY
-                    </Typography>
+                        MS
+                    </Typography> */}
                     {/* Desktop view menu links */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', gap: 3 }}>
                         {pages.map((page) => (
