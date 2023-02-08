@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {
-    AppBar, Box, Toolbar, IconButton, Typography, Menu, Container, Avatar, Button, Tooltip, MenuItem
+    AppBar, Box, Toolbar, IconButton, Typography, Menu, Container, Button, MenuItem
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -108,7 +108,7 @@ function ResponsiveAppBar() {
                             </Button>
                         ))}
                     </Box>
-
+                    {/* Inquire button */}
                     <Box sx={{ flexGrow: 0 }}>
                         <Button variant="contained" sx={{
                             borderRadius: '18px',
