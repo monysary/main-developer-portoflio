@@ -78,14 +78,14 @@ function ResponsiveAppBar() {
                         </Menu>
                     </Box>
                     {/* Mobile view logo */}
-                    {/* <Typography
+                    <Typography
                         variant="h5"
                         noWrap
                         component="a"
                         href=""
                         sx={{
                             mr: 2,
-                            display: { xs: 'flex', md: 'none' },
+                            display: { xs: 'none', sm: 'flex', md: 'none' },
                             flexGrow: 1,
                             fontFamily: 'monospace',
                             fontWeight: 700,
@@ -94,8 +94,8 @@ function ResponsiveAppBar() {
                             textDecoration: 'none',
                         }}
                     >
-                        MS
-                    </Typography> */}
+                        MONY SARY
+                    </Typography>
                     {/* Desktop view menu links */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center', gap: 3 }}>
                         {pages.map((page) => (
@@ -116,6 +116,9 @@ function ResponsiveAppBar() {
                             color: '#F5F5F5',
                             '&:hover': {
                                 backgroundColor: '#A42C3B',
+                            },
+                            '@media (max-width: 600px)': {
+                                fontSize: '12px'
                             }
                         }}>Inquire</Button>
                     </Box>

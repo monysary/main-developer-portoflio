@@ -10,7 +10,7 @@ function Home() {
                 Let's build something together.
             </Typography>
             <div style={{ height: '3px', width: '200px', backgroundColor: '#C83649', margin: '50px auto' }}></div>
-            <Grid container gap={10} direction='row' justifyContent='center' alignItems='center'  sx={{ '@media (max-width: 600px)': { gap: '40px' } }}>
+            <Grid container gap={10} direction='row' justifyContent='center' alignItems='center' sx={{ '@media (max-width: 600px)': { gap: '40px' } }}>
                 <img alt="profile" src={profile} width='300px' />
                 {/* Desktop display */}
                 <Grid item xs={12} md={5} sx={{ display: { xs: 'none', md: 'block' } }}>
@@ -30,7 +30,7 @@ function Home() {
                 </Grid>
             </Grid>
             <Grid container justifyContent='center' p='20px'>
-                <KeyboardDoubleArrowDownIcon fontSize='large' sx={{ color: '#C83649' }}/>
+                <KeyboardDoubleArrowDownIcon fontSize='large' sx={{ color: '#C83649' }} />
             </Grid>
         </Box>
     )
