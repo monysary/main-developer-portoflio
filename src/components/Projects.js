@@ -53,7 +53,7 @@ function Projects() {
                         image={image}
                         title="green iguana"
                     />
-                    <CardContent sx={{ height: 190 }}>
+                    <CardContent sx={{ '@media (min-width: 600px)': { height: 190 } }}>
                         <Typography gutterBottom variant="h5" component="div" textAlign='center'>
                             {name}
                         </Typography>
@@ -84,9 +84,9 @@ function Projects() {
     return (
         <Box padding='50px'>
             <Grid container justifyContent='center' alignItems='center' marginBottom='100px'>
-                <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px' }} />
-                <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '40px' } }}>Projects</Typography>
-                <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px' }} />
+                <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
+                <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Projects</Typography>
+                <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
             </Grid>
             <Grid container justifyContent='center' gap={2}>
                 {projects.map(project => <ProjectCard

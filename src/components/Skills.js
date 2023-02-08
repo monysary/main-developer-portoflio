@@ -9,9 +9,9 @@ function Skills() {
     return (
         <Box backgroundColor='#D9D9D9' padding='50px 50px 100px'>
             <Grid container justifyContent='center' alignItems='center'>
-                <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px' }} />
-                <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '40px' } }}>Skills</Typography>
-                <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px' }} />
+                <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
+                <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Skills</Typography>
+                <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
             </Grid>
             <Grid container justifyContent='space-evenly' marginTop='100px' sx={{ '@media (max-width: 1200px)': { marginTop: '0px' } }}>
                 <Grid item  marginX='20px' sx={{ '@media (max-width: 1200px)': { marginTop: '70px' } }}>
@@ -30,7 +30,7 @@ function Skills() {
                         <Typography fontSize='30px' component='h3' marginTop='40px' sx={{ '@media (max-width: 900px)': { fontSize: '30px', marginTop: '20px' } }}>Backend</Typography>
                         <Box sx={{ height: '3px', width: '200px', backgroundColor: '#C83649', margin: '10px auto 30px', '@media (max-width: 600px)': { margin: '10px auto 10px' } }}></Box>
                         <Typography fontSize='20px' component='p' textAlign='center' width='300px' sx={{ '@media (max-width: 600px)': { width: '90%', fontSize: '20px' } }}>
-                            Node <span style={{ color: "#C83649" }}>|</span> Express <span style={{ color: "#C83649" }}>|</span> GraphQL <span style={{ color: "#C83649" }}>|</span> APIs <span style={{ color: "#C83649" }}>|</span> Jest <span style={{ color: "#C83649" }}>|</span> Bcrypt <span style={{ color: "#C83649" }}>|</span> Socket.io
+                            Node <span style={{ color: "#C83649" }}>|</span> Express <span style={{ color: "#C83649" }}>|</span> APIs <span style={{ color: "#C83649" }}>|</span> Jest <span style={{ color: "#C83649" }}>|</span> Bcrypt <span style={{ color: "#C83649" }}>|</span> Socket.io
                         </Typography>
                     </Grid>
                 </Grid>
@@ -40,7 +40,7 @@ function Skills() {
                         <Typography fontSize='30px' component='h3' marginTop='40px' sx={{ '@media (max-width: 900px)': { fontSize: '30px', marginTop: '20px' } }}>Database</Typography>
                         <Box sx={{ height: '3px', width: '200px', backgroundColor: '#C83649', margin: '10px auto 30px', '@media (max-width: 600px)': { margin: '10px auto 10px' } }}></Box>
                         <Typography fontSize='20px' component='p' textAlign='center' width='300px' sx={{ '@media (max-width: 600px)': { width: '90%', fontSize: '20px' } }}>
-                            MySQL <span style={{ color: "#C83649" }}>|</span> Sequelize <span style={{ color: "#C83649" }}>|</span> MongoDB <span style={{ color: "#C83649" }}>|</span> Mongoose
+                            MySQL <span style={{ color: "#C83649" }}>|</span> Sequelize <span style={{ color: "#C83649" }}>|</span> MongoDB <span style={{ color: "#C83649" }}>|</span> Mongoose <span style={{ color: "#C83649" }}>|</span> GraphQL
                         </Typography>
                     </Grid>
                 </Grid>

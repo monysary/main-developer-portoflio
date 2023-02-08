@@ -1,6 +1,6 @@
-import profile from '../images/profile.jpg'
 import { Box, Typography, Grid } from "@mui/material";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import profile from '../images/profile.jpg';
 
 function Home() {
     return (
