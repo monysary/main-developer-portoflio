@@ -18,7 +18,7 @@ function ResponsiveAppBar() {
     };
 
     return (
-        <AppBar position="fixed" sx={{ zIndex: '100', backgroundColor: "#3C3A40", borderBottom: '2px solid #D9D9D9', boxShadow: 'none' }}>
+        <AppBar position="fixed" sx={{ zIndex: '100', backgroundColor: "#3C3A40" }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     {/* Desktop view Logo */}
