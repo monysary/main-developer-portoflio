@@ -22,9 +22,9 @@ function Contact() {
                     <Typography
                         component='h3'
                         textAlign='center'
-                        fontSize='35px'
+                        fontSize='30px'
                         marginBottom='40px'
-                        sx={{ '@media (max-width: 600px)': { fontSize: '25px' } }}
+                        sx={{ '@media (max-width: 600px)': { fontSize: '20px' } }}
                     >Let's chat!</Typography>
                     <Grid container direction='column' alignItems='center' gap={5}>
                         <Grid container justifyContent='space-evenly' gap={5}>
