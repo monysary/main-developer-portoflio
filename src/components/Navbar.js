@@ -7,7 +7,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 const pages = ['Home', 'Skills', 'Projects'];
 
-export const resumeURL = 'http://localhost:3000/mony-sary-resume.pdf'
+export const resumeURL = 'https://monysary.github.io/main-developer-portoflio/mony-sary-resume.pdf'
 
 export const downloadResume = url => {
     const fileName = url.split('/').pop()
