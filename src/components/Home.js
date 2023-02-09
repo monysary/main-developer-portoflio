@@ -6,7 +6,7 @@ import { resumeURL, downloadResume } from "./Navbar";
 
 function Home() {
     return (
-        <Box sx={{ paddingTop: '150px', '@media (max-width: 900px)': { paddingTop: '100px' } }}>
+        <Box sx={{ paddingTop: '150px', '@media (max-width: 900px)': { paddingTop: '100px' } }} id='Home'>
             <Typography variant="h2" component='h1' textAlign='center' sx={{ '@media (max-width: 900px)': { fontSize: '50px' }, '@media (max-width: 600px)': { fontSize: '40px' } }}>
                 Hi, I'm <span style={{ color: '#C83649' }}>Mony</span>. <br />
                 Let's build something together.

@@ -84,9 +84,11 @@ function ResponsiveAppBar() {
                             }}
                         >
                             {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
+                                <a href={`#${page}`}>
+                                    <MenuItem key={page} onClick={handleCloseNavMenu}>
+                                        <Typography textAlign="center">{page}</Typography>
+                                    </MenuItem>
+                                </a>
                             ))}
                         </Menu>
                     </Box>
@@ -95,6 +97,7 @@ function ResponsiveAppBar() {
                         {pages.map((page) => (
                             <Button
                                 key={page}
+                                href={`#${page}`}
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: '#F5F5F5', display: 'block' }}
                             >
@@ -118,7 +121,7 @@ function ResponsiveAppBar() {
                                 },
                                 display: { xs: 'none', md: 'inline-flex' }
                             }}>Resume</Button>
-                        <Button variant="contained" sx={{
+                        <Button variant="contained" href='#Contact' sx={{
                             borderRadius: '18px',
                             backgroundColor: '#C83649',
                             color: '#F5F5F5',

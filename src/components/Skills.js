@@ -7,7 +7,7 @@ import StorageIcon from '@mui/icons-material/Storage';
 
 function Skills() {
     return (
-        <Box backgroundColor='#D9D9D9' padding='50px 50px 100px'>
+        <Box backgroundColor='#D9D9D9' padding='70px 20px 100px' id='Skills'>
             <Grid container justifyContent='center' alignItems='center'>
                 <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
                 <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Skills</Typography>

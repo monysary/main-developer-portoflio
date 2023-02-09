@@ -4,7 +4,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Contact() {
     return (
-        <Box backgroundColor='#D9D9D9' padding='50px'>
+        <Box backgroundColor='#D9D9D9' padding='70px 20px' id='Contact'>
             <Grid container justifyContent='center' alignItems='center' marginBottom='100px'>
                 <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
                 <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Contact</Typography>

@@ -82,7 +82,7 @@ function Projects() {
     }
 
     return (
-        <Box padding='50px'>
+        <Box padding='70px 20px' id='Projects'>
             <Grid container justifyContent='center' alignItems='center' marginBottom='100px'>
                 <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
                 <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Projects</Typography>
