@@ -1,6 +1,6 @@
 import { Box, Typography, Grid, Button } from "@mui/material";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
-import profile from '../images/profile.jpg';
+import profile from '../images/mony-profile.png';
 
 import { resumeURL, downloadResume } from "./Navbar";
 
