@@ -90,6 +90,7 @@ function Projects() {
             </Grid>
             <Grid container justifyContent='center' gap={2}>
                 {projects.map(project => <ProjectCard
+                    key={project.name}
                     name={project.name}
                     description={project.description}
                     tech={project.tech} url={project.url}
