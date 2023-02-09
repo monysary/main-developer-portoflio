@@ -2,7 +2,7 @@
   "name": "main-developer-portoflio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://monysary.github.io",
+  "homepage": "http://monysary.github.io",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
