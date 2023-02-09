@@ -13,7 +13,7 @@ function Projects() {
         {
             name: 'Pet Pals',
             description: 'A social media platform for pet owners to connect and chat with each other about their pets and schedule play dates!',
-            tech: ['React', 'Material UI', 'Node', 'Express', 'MongoDB', 'GraphQL', 'Socket.io'],
+            tech: ['React.js', 'Material UI', 'Node.js', 'Apollo Server', 'MongoDB', 'GraphQL', 'Socket.io'],
             url: 'https://hidden-headland-00556.herokuapp.com/',
             github: 'https://github.com/BryantTrinh/Pet-Pals-A-Social-Media-App-for-Pets',
             image: petPals
@@ -21,15 +21,15 @@ function Projects() {
         {
             name: 'Bits Please Chat',
             description: 'An online instant message app where users communicate using only emojis!',
-            tech: ['Handlebars', 'Tailwind', 'Node', 'Express', 'MySQL', 'Socket.io'],
+            tech: ['Handlebars.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MySQL', 'Socket.io'],
             url: 'https://damp-river-11459.herokuapp.com/',
             github: 'https://github.com/monysary/Bits-Please-Chat',
             image: bitsPleaseChat
         },
         {
             name: 'The Weather Dashboard',
-            description: 'An online instant message app where users communicate using only emojis!',
-            tech: ['HTML', 'Bootstrap', 'Javascript', 'Web API'],
+            description: 'A weather app that allows users to search for current and future weather forecasts of cities, as well as save and delete the searches!',
+            tech: ['HTML', 'Bootstrap CSS', 'Javascript', 'Third Party API'],
             url: 'https://monysary.github.io/Weather-Dashboard/',
             github: 'https://github.com/monysary/Weather-Dashboard',
             image: weatherDashboard
@@ -37,7 +37,7 @@ function Projects() {
         {
             name: 'The Tech Blog',
             description: 'A blog website built using the CRUD operation for posting, reading, commenting, updating, and deleting user blog posts! Users must be logged in to see posts.',
-            tech: ['Handlebars', 'Bootstrap', 'Node', 'Express', 'MySQL'],
+            tech: ['Handlebars.js', 'Bootstrap CSS', 'Node.js', 'Express.js', 'MySQL'],
             url: 'https://agile-headland-11573.herokuapp.com/',
             github: 'https://github.com/monysary/Tech-Blog',
             image: techBlog

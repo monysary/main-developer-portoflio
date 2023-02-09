@@ -3,8 +3,11 @@ import {
     AppBar, Box, Toolbar, IconButton, Typography, Menu, Container, Button, MenuItem
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import DownloadIcon from '@mui/icons-material/Download';
 
-const pages = ['Home', 'Skills', 'Projects', 'Resume'];
+const pages = ['Home', 'Skills', 'Projects'];
+
+const resumeURL = 'http://localhost:3000/mony-sary-resume.pdf'
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -16,6 +19,16 @@ function ResponsiveAppBar() {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
+
+    const downloadResume = url => {
+        const fileName = url.split('/').pop()
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download', fileName)
+        document.body.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
+    }
 
     return (
         <AppBar position="fixed" sx={{ zIndex: '100', backgroundColor: "#3C3A40" }}>
@@ -110,6 +123,19 @@ function ResponsiveAppBar() {
                     </Box>
                     {/* Inquire button */}
                     <Box sx={{ flexGrow: 0, marginLeft: '24px' }}>
+                        <Button variant="outlined" onClick={() => downloadResume(resumeURL)} startIcon={<DownloadIcon />}
+                            sx={{
+                                borderRadius: '18px',
+                                borderColor: '#C83649',
+                                color: '#F5F5F5',
+                                '&:hover': {
+                                    borderColor: '#F5F5F5',
+                                    color: '#F5F5F5',
+                                },
+                                '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                }
+                            }}>Resume</Button>
                         <Button variant="contained" sx={{
                             borderRadius: '18px',
                             backgroundColor: '#C83649',
@@ -119,7 +145,8 @@ function ResponsiveAppBar() {
                             },
                             '@media (max-width: 600px)': {
                                 fontSize: '12px'
-                            }
+                            },
+                            marginLeft: '24px'
                         }}>Contact</Button>
                     </Box>
                 </Toolbar>
