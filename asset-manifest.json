@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/main-developer-portoflio/static/css/main.ebd0aead.css",
-    "main.js": "/main-developer-portoflio/static/js/main.ba70ed0d.js",
-    "static/media/mony-profile.png": "/main-developer-portoflio/static/media/mony-profile.e136c3615b12976b29ed.png",
-    "static/media/pet-pals.jpg": "/main-developer-portoflio/static/media/pet-pals.e059d2c09bce652ec8b9.jpg",
-    "static/media/bits-please-chat.jpg": "/main-developer-portoflio/static/media/bits-please-chat.8b4fbc71d73ee069b573.jpg",
-    "static/media/weather-dashboard.jpg": "/main-developer-portoflio/static/media/weather-dashboard.e06a49370369dc4be64d.jpg",
-    "static/media/tech-blog.jpg": "/main-developer-portoflio/static/media/tech-blog.260c7df242eb77bca70e.jpg",
-    "index.html": "/main-developer-portoflio/index.html",
-    "main.ebd0aead.css.map": "/main-developer-portoflio/static/css/main.ebd0aead.css.map",
-    "main.ba70ed0d.js.map": "/main-developer-portoflio/static/js/main.ba70ed0d.js.map"
+    "main.css": "/static/css/main.ebd0aead.css",
+    "main.js": "/static/js/main.49a7c75e.js",
+    "static/media/mony-profile.png": "/static/media/mony-profile.e136c3615b12976b29ed.png",
+    "static/media/pet-pals.jpg": "/static/media/pet-pals.e059d2c09bce652ec8b9.jpg",
+    "static/media/bits-please-chat.jpg": "/static/media/bits-please-chat.8b4fbc71d73ee069b573.jpg",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.e06a49370369dc4be64d.jpg",
+    "static/media/tech-blog.jpg": "/static/media/tech-blog.260c7df242eb77bca70e.jpg",
+    "index.html": "/index.html",
+    "main.ebd0aead.css.map": "/static/css/main.ebd0aead.css.map",
+    "main.49a7c75e.js.map": "/static/js/main.49a7c75e.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd0aead.css",
-    "static/js/main.ba70ed0d.js"
+    "static/js/main.49a7c75e.js"
   ]
 }
