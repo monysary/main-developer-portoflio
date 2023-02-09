@@ -1,6 +1,8 @@
-import { Box, Typography, Grid } from "@mui/material";
+import { Box, Typography, Grid, Button } from "@mui/material";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import profile from '../images/profile.jpg';
+
+import { resumeURL, downloadResume } from "./Navbar";
 
 function Home() {
     return (
@@ -28,6 +30,20 @@ function Home() {
                         I truly enjoy the process of designing and building websites and web applications, so let’s build something together!
                     </Typography>
                 </Grid>
+            </Grid>
+            <Grid container justifyContent='center' m='40px auto 20px'>
+                <Button variant="contained" onClick={() => downloadResume(resumeURL)}
+                    sx={{
+                        backgroundColor: '#C83649',
+                        color: '#F5F5F5',
+                        '&:hover': {
+                            backgroundColor: '#A42C3B',
+                        },
+                        '@media (max-width: 600px)': {
+                            fontSize: '12px'
+                        },
+                        display: { xs: 'inline-block', md: 'none' }
+                    }}>Download Resume</Button>
             </Grid>
             <Grid container justifyContent='center' p='20px'>
                 <KeyboardDoubleArrowDownIcon fontSize='large' sx={{ color: '#C83649' }} />

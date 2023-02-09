@@ -7,7 +7,17 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 const pages = ['Home', 'Skills', 'Projects'];
 
-const resumeURL = 'http://localhost:3000/mony-sary-resume.pdf'
+export const resumeURL = 'http://localhost:3000/mony-sary-resume.pdf'
+
+export const downloadResume = url => {
+    const fileName = url.split('/').pop()
+    const aTag = document.createElement('a')
+    aTag.href = url
+    aTag.setAttribute('download', fileName)
+    document.body.appendChild(aTag)
+    aTag.click()
+    aTag.remove()
+}
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -19,16 +29,6 @@ function ResponsiveAppBar() {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
-
-    const downloadResume = url => {
-        const fileName = url.split('/').pop()
-        const aTag = document.createElement('a')
-        aTag.href = url
-        aTag.setAttribute('download', fileName)
-        document.body.appendChild(aTag)
-        aTag.click()
-        aTag.remove()
-    }
 
     return (
         <AppBar position="fixed" sx={{ zIndex: '100', backgroundColor: "#3C3A40" }}>
@@ -90,25 +90,6 @@ function ResponsiveAppBar() {
                             ))}
                         </Menu>
                     </Box>
-                    {/* Mobile view logo */}
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href=""
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', sm: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: '#F5F5F5',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        MONY SARY
-                    </Typography>
                     {/* Desktop view menu links */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end', gap: 3 }}>
                         {pages.map((page) => (
@@ -134,7 +115,8 @@ function ResponsiveAppBar() {
                                 },
                                 '@media (max-width: 600px)': {
                                     fontSize: '12px'
-                                }
+                                },
+                                display: { xs: 'none', md: 'inline-flex' }
                             }}>Resume</Button>
                         <Button variant="contained" sx={{
                             borderRadius: '18px',

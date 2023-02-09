@@ -26,8 +26,8 @@ function Contact() {
                         marginBottom='40px'
                         sx={{ '@media (max-width: 600px)': { fontSize: '20px' } }}
                     >Let's chat!</Typography>
-                    <Grid container direction='column' alignItems='center' gap={5}>
-                        <Grid container justifyContent='space-evenly' gap={5}>
+                    <Grid container direction='column' alignItems='center' gap={5} sx={{ '@media (max-width: 600px)': { gap: 2 } }}>
+                        <Grid container justifyContent='space-evenly' gap={5} sx={{ '@media (max-width: 600px)': { gap: 2 } }}>
                             <Grid item xs={12} md>
                                 <TextField
                                     fullWidth
