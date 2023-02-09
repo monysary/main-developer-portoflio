@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/main-developer-portoflio/static/css/main.ebd0aead.css",
-    "main.js": "/main-developer-portoflio/static/js/main.8fa30a0e.js",
-    "static/media/mony-profile.png": "/main-developer-portoflio/static/media/mony-profile.b61478b1a9b607ec32ba.png",
+    "main.js": "/main-developer-portoflio/static/js/main.ba70ed0d.js",
+    "static/media/mony-profile.png": "/main-developer-portoflio/static/media/mony-profile.e136c3615b12976b29ed.png",
     "static/media/pet-pals.jpg": "/main-developer-portoflio/static/media/pet-pals.e059d2c09bce652ec8b9.jpg",
     "static/media/bits-please-chat.jpg": "/main-developer-portoflio/static/media/bits-please-chat.8b4fbc71d73ee069b573.jpg",
     "static/media/weather-dashboard.jpg": "/main-developer-portoflio/static/media/weather-dashboard.e06a49370369dc4be64d.jpg",
     "static/media/tech-blog.jpg": "/main-developer-portoflio/static/media/tech-blog.260c7df242eb77bca70e.jpg",
     "index.html": "/main-developer-portoflio/index.html",
     "main.ebd0aead.css.map": "/main-developer-portoflio/static/css/main.ebd0aead.css.map",
-    "main.8fa30a0e.js.map": "/main-developer-portoflio/static/js/main.8fa30a0e.js.map"
+    "main.ba70ed0d.js.map": "/main-developer-portoflio/static/js/main.ba70ed0d.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd0aead.css",
-    "static/js/main.8fa30a0e.js"
+    "static/js/main.ba70ed0d.js"
   ]
 }
