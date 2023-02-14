@@ -20,7 +20,7 @@ function Contact() {
                     sx={{ color: "#F5F5F5" }}
                     startIcon={<EmailIcon sx={{ color: "#F5F5F5" }} />}
                     href='mailto:sary.mony@gmail.com'
-                >Email</Button>
+                >sary.mony@gmail.com</Button>
                 <Button
                     variant="text"
                     sx={{ color: "#F5F5F5" }}
