@@ -14,7 +14,7 @@ function Contact() {
                 marginX='20px'
             >Contact</Typography>
             <div style={{ height: '3px', width: '200px', backgroundColor: '#C83649', margin: '50px auto' }}></div>
-            <Grid container justifyContent='center' gap={4}>
+            <Grid container direction='column' alignItems='center' gap={1}>
                 <Button
                     variant="text"
                     sx={{ color: "#F5F5F5" }}
