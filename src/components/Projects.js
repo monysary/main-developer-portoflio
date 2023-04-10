@@ -7,6 +7,7 @@ import petPals from '../images/pet-pals.jpg';
 import bitsPleaseChat from '../images/bits-please-chat.jpg';
 import weatherDashboard from '../images/weather-dashboard.jpg';
 import techBlog from '../images/tech-blog.jpg';
+import vacayte from '../images/vacayte.jpg'
 
 function Projects() {
     const projects = [
@@ -42,6 +43,14 @@ function Projects() {
             github: 'https://github.com/monysary/Tech-Blog',
             image: techBlog
         },
+        {
+            name: 'Vacayte (in progress)',
+            description: "A travel app designed for adventurers to quickly make an itinerary by leveraging Yelp's API.",
+            tech: ['React.js', 'Material UI', 'Node.js', 'Apollo Server', 'MongoDB', 'GraphQL', 'Yelp API'],
+            url: '',
+            github: 'https://github.com/monysary/vacayte-travel-app',
+            image: vacayte
+        },
     ]
 
     function ProjectCard({ name, description, tech, url, github, image }) {
@@ -67,11 +76,11 @@ function Projects() {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ justifyContent: 'space-evenly' }} >
-                        <Button size="small" variant='outlined' startIcon={<GitHubIcon />} href={github}
+                        <Button size="small" variant='outlined' startIcon={<GitHubIcon />} href={github} target='_blank'
                             sx={{ color: '#C83649', borderColor: '#C83649', '&:hover': { color: '#A42C3B', borderColor: '#A42C3B' } }}>
                             GitHub
                         </Button>
-                        <Button size="small" variant='contained' startIcon={<LanguageIcon />} href={url}
+                        <Button size="small" variant='contained' startIcon={<LanguageIcon />} href={url} target='_blank'
                             sx={{ backgroundColor: '#C83649', color: '#F5F5F5', '&:hover': { backgroundColor: '#A42C3B' }, }} >
                             Visit
                         </Button>
@@ -84,9 +93,9 @@ function Projects() {
     return (
         <Box padding='70px 20px' id='Projects'>
             <Grid container justifyContent='center' alignItems='center' marginBottom='100px'>
-                <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
+                {/* <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} /> */}
                 <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Projects</Typography>
-                <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
+                {/* <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} /> */}
             </Grid>
             <Grid container justifyContent='center' gap={2}>
                 {projects.map(project => <ProjectCard

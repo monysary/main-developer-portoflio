@@ -9,9 +9,9 @@ function Skills() {
     return (
         <Box backgroundColor='#D9D9D9' padding='70px 20px 100px' id='Skills'>
             <Grid container justifyContent='center' alignItems='center'>
-                <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
+                {/* <ArrowBackIosNewIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} /> */}
                 <Typography fontSize='40px' component='h3' marginX='20px' sx={{ '@media (max-width: 600px)': { fontSize: '30px' } }}>Skills</Typography>
-                <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} />
+                {/* <ArrowForwardIosIcon sx={{ color: '#C83649', fontSize: '40px', '@media (max-width: 600px)': { fontSize: '30px' } }} /> */}
             </Grid>
             <Grid container justifyContent='space-evenly' marginTop='100px' sx={{ '@media (max-width: 1200px)': { marginTop: '0px' } }}>
                 <Grid item marginX='20px' sx={{ '@media (max-width: 1200px)': { marginTop: '70px' } }}>
