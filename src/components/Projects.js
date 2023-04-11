@@ -44,10 +44,10 @@ function Projects() {
             image: techBlog
         },
         {
-            name: 'Vacayte (in progress)',
+            name: 'Vacayte',
             description: "A travel app designed for adventurers to quickly make an itinerary by leveraging Yelp's API.",
             tech: ['React.js', 'Material UI', 'Node.js', 'Apollo Server', 'MongoDB', 'GraphQL', 'Yelp API'],
-            url: '',
+            url: 'https://obscure-fjord-08413.herokuapp.com/',
             github: 'https://github.com/monysary/vacayte-travel-app',
             image: vacayte
         },
