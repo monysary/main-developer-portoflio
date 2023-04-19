@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.ebd0aead.css",
-    "main.js": "/static/js/main.999dc149.js",
+    "main.js": "/static/js/main.04d11b52.js",
     "static/media/vacayte.jpg": "/static/media/vacayte.ebd03064b0756013cc1b.jpg",
     "static/media/mony-profile.png": "/static/media/mony-profile.e136c3615b12976b29ed.png",
+    "static/media/botw-encyclopedia.jpg": "/static/media/botw-encyclopedia.4ea9ab98f576853d8004.jpg",
     "static/media/pet-pals.jpg": "/static/media/pet-pals.e059d2c09bce652ec8b9.jpg",
     "static/media/bits-please-chat.jpg": "/static/media/bits-please-chat.8b4fbc71d73ee069b573.jpg",
     "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.e06a49370369dc4be64d.jpg",
     "static/media/tech-blog.jpg": "/static/media/tech-blog.260c7df242eb77bca70e.jpg",
     "index.html": "/index.html",
     "main.ebd0aead.css.map": "/static/css/main.ebd0aead.css.map",
-    "main.999dc149.js.map": "/static/js/main.999dc149.js.map"
+    "main.04d11b52.js.map": "/static/js/main.04d11b52.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd0aead.css",
-    "static/js/main.999dc149.js"
+    "static/js/main.04d11b52.js"
   ]
 }
